@@ -1,0 +1,40 @@
+// !$*UTF8*$!
+{
+    archiveVersion = 1;
+    classes = {};
+    objectVersion = 56;
+    objects = {
+        A10000000000000000000001 = {isa = PBXNativeTarget; buildConfigurationList = A10000000000000000000021; buildPhases = (A10000000000000000000011, A10000000000000000000012); buildRules = (); dependencies = (); name = Hop; productName = Hop; productReference = A10000000000000000000031; productType = "com.apple.product-type.application"; };
+        A10000000000000000000002 = {isa = PBXNativeTarget; buildConfigurationList = A10000000000000000000022; buildPhases = (A10000000000000000000013, A10000000000000000000014); buildRules = (); dependencies = (A10000000000000000000041); name = HopTests; productName = HopTests; productReference = A10000000000000000000032; productType = "com.apple.product-type.bundle.unit-test"; };
+        A10000000000000000000003 = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastUpgradeCheck = 1600; TargetAttributes = {A10000000000000000000001 = {CreatedOnToolsVersion = 16.0; }; A10000000000000000000002 = {CreatedOnToolsVersion = 16.0; TestTargetID = A10000000000000000000001; }; }; }; buildConfigurationList = A10000000000000000000023; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = A10000000000000000000004; productRefGroup = A10000000000000000000005; projectDirPath = ""; projectRoot = ""; targets = (A10000000000000000000001, A10000000000000000000002); };
+        A10000000000000000000004 = {isa = PBXGroup; children = (A10000000000000000000006, A10000000000000000000007, A10000000000000000000005); sourceTree = "<group>"; };
+        A10000000000000000000005 = {isa = PBXGroup; children = (A10000000000000000000031, A10000000000000000000032); name = Products; sourceTree = "<group>"; };
+        A10000000000000000000006 = {isa = PBXGroup; children = (A10000000000000000000051, A10000000000000000000052, A10000000000000000000053); path = Hop; sourceTree = "<group>"; };
+        A10000000000000000000007 = {isa = PBXGroup; children = (A10000000000000000000054); path = HopTests; sourceTree = "<group>"; };
+        A10000000000000000000011 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000061, A10000000000000000000062); runOnlyForDeploymentPostprocessing = 0; };
+        A10000000000000000000012 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+        A10000000000000000000013 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000063); runOnlyForDeploymentPostprocessing = 0; };
+        A10000000000000000000014 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+        A10000000000000000000021 = {isa = XCConfigurationList; buildConfigurations = (A10000000000000000000071, A10000000000000000000072); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+        A10000000000000000000022 = {isa = XCConfigurationList; buildConfigurations = (A10000000000000000000073, A10000000000000000000074); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+        A10000000000000000000023 = {isa = XCConfigurationList; buildConfigurations = (A10000000000000000000075, A10000000000000000000076); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+        A10000000000000000000031 = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+        A10000000000000000000032 = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+        A10000000000000000000041 = {isa = PBXTargetDependency; target = A10000000000000000000001; targetProxy = A10000000000000000000042; };
+        A10000000000000000000042 = {isa = PBXContainerItemProxy; containerPortal = A10000000000000000000003; proxyType = 1; remoteGlobalIDString = A10000000000000000000001; remoteInfo = Hop; };
+        A10000000000000000000051 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HopApp.swift; sourceTree = "<group>"; };
+        A10000000000000000000052 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+        A10000000000000000000053 = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hop.entitlements; sourceTree = "<group>"; };
+        A10000000000000000000054 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HopTests.swift; sourceTree = "<group>"; };
+        A10000000000000000000061 = {isa = PBXBuildFile; fileRef = A10000000000000000000051; };
+        A10000000000000000000062 = {isa = PBXBuildFile; fileRef = A10000000000000000000052; };
+        A10000000000000000000063 = {isa = PBXBuildFile; fileRef = A10000000000000000000054; };
+        A10000000000000000000071 = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES; CODE_SIGN_ENTITLEMENTS = Hop/Hop.entitlements; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; ENABLE_TESTABILITY = YES; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = Hop; INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools"; MACOSX_DEPLOYMENT_TARGET = 15.0; MARKETING_VERSION = 0.1.0; PRODUCT_BUNDLE_IDENTIFIER = com.mjm.hop; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = macosx; SWIFT_VERSION = 5.0; }; name = Debug; };
+        A10000000000000000000072 = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES; CODE_SIGN_ENTITLEMENTS = Hop/Hop.entitlements; CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = Hop; INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools"; MACOSX_DEPLOYMENT_TARGET = 15.0; MARKETING_VERSION = 0.1.0; PRODUCT_BUNDLE_IDENTIFIER = com.mjm.hop; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = macosx; SWIFT_VERSION = 5.0; }; name = Release; };
+        A10000000000000000000073 = {isa = XCBuildConfiguration; buildSettings = {BUNDLE_LOADER = "$(TEST_HOST)"; GENERATE_INFOPLIST_FILE = YES; MACOSX_DEPLOYMENT_TARGET = 15.0; PRODUCT_BUNDLE_IDENTIFIER = com.mjm.hop.tests; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = macosx; SWIFT_VERSION = 5.0; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hop.app/Contents/MacOS/Hop"; }; name = Debug; };
+        A10000000000000000000074 = {isa = XCBuildConfiguration; buildSettings = {BUNDLE_LOADER = "$(TEST_HOST)"; GENERATE_INFOPLIST_FILE = YES; MACOSX_DEPLOYMENT_TARGET = 15.0; PRODUCT_BUNDLE_IDENTIFIER = com.mjm.hop.tests; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = macosx; SWIFT_VERSION = 5.0; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hop.app/Contents/MacOS/Hop"; }; name = Release; };
+        A10000000000000000000075 = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CODE_SIGN_STYLE = Automatic; MACOSX_DEPLOYMENT_TARGET = 15.0; SDKROOT = macosx; SWIFT_VERSION = 5.0; }; name = Debug; };
+        A10000000000000000000076 = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CODE_SIGN_STYLE = Automatic; MACOSX_DEPLOYMENT_TARGET = 15.0; SDKROOT = macosx; SWIFT_VERSION = 5.0; }; name = Release; };
+    };
+    rootObject = A10000000000000000000003;
+}

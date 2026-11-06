@@ -1,0 +1,38 @@
+# Xcode user state and build products
+DerivedData/
+build/
+*.xcuserstate
+*.xcuserdata/
+*.xccheckout
+*.xcscmblueprint
+*.hmap
+*.ipa
+*.dSYM/
+*.dSYM.zip
+*.xcarchive/
+*.app/
+
+# Swift Package Manager local state (keep Package.resolved tracked)
+.build/
+.swiftpm/xcode/package.xcworkspace/xcuserdata/
+
+# Distribution and signing secrets
+*.p12
+*.p8
+*.mobileprovision
+*.provisionprofile
+*.keychain
+*.keychain-db
+*.pem
+*.key
+*.pfx
+*.cer
+*.certSigningRequest
+appcast.xml
+
+# Local environment
+.DS_Store
+.env
+.env.*
+!.env.example
+*.log
